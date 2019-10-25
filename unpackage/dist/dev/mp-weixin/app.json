@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/news/news",
+    "pages/home/home",
+    "pages/msg/msg"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "社区交友",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "color": "black",
+    "selectedColor": "#FC5C82",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "社区",
+        "iconPath": "static/tabbar/index.png",
+        "selectedIconPath": "static/tabbar/indexed.png"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "动态",
+        "iconPath": "static/tabbar/news.png",
+        "selectedIconPath": "static/tabbar/newsed.png"
+      },
+      {
+        "pagePath": "pages/msg/msg",
+        "text": "消息",
+        "iconPath": "static/tabbar/paper.png",
+        "selectedIconPath": "static/tabbar/papered.png"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "text": "我的",
+        "iconPath": "static/tabbar/home.png",
+        "selectedIconPath": "static/tabbar/homeed.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
