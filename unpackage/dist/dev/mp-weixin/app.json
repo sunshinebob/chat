@@ -13,7 +13,7 @@
     "backgroundColor": "#FFFFFF"
   },
   "tabBar": {
-    "color": "black",
+    "color": "#000",
     "selectedColor": "#FC5C82",
     "backgroundColor": "#FFFFFF",
     "list": [
@@ -43,5 +43,7 @@
       }
     ]
   },
-  "usingComponents": {}
+  "usingComponents": {
+    "divider": "/components/common/divider"
+  }
 }

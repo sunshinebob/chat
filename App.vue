@@ -17,12 +17,16 @@
 	}
 </script>
 
-<style>
+<style lang="scss">
 	/*每个页面公共css */
 	/* 引入官方公共css */
 	@import "./common/uni.css";
 	/* 引入基础图标库 */
 	@import "./common/icon.css";
 	/* 引入动画看 */
-	@import "./common/animate.css"
+	@import "./common/animate.css";
+	/* 引入自定义样式库 */
+	@import "./common/free.css";
+	/* 引入自定义公共样式库 */
+	@import "./common/scss/index.scss";
 </style>

@@ -1,0 +1,14 @@
+@import "./variable.scss";
+
+.text-main {
+	color: $color-theme;
+}
+
+.background-main {
+	background-color: $color-theme;
+}
+
+// 隐藏h5页面滚动条
+scroll-view [style*="overflow"]::-webkit-scrollbar {  
+  display: none;  
+} 

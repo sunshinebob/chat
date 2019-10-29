@@ -24,20 +24,9 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-.content .scroll-row {
+.divider {
   width: 100%;
-  white-space: nowrap;
-}
-.content .scroll-row .scroll-row-item {
-    display: inline-block;
-    width: 150rpx;
-    height: 80rpx;
-    line-height: 80rpx;
-    text-align: center;
-    font-size: 14px;
-}
-.content .scroll-row .scroll-row-item.active {
-      font-size: 18px;
-      color: #FD597C;
+  height: 20rpx;
+  background-color: #f5f5f5;
 }
 

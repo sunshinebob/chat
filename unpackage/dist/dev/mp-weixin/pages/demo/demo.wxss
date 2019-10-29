@@ -1,8 +1,0 @@
-
-.view-box {
-	margin: 30px auto;
-	width: 100rpx;
-	height: 100rpx;
-	background-color: #007AFF;
-}
-
